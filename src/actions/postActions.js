@@ -36,10 +36,9 @@ export const createPost = postData => dispatch => {
     //console.log(postData);
 };
 
-export const pageFilter = page => dispatch => {
-    console.log('dispatching!' + page);
+export const pageFilter = pageNum => dispatch => {
     dispatch({
         type: PAGE_FILTER,
-        page: page
+        page: pageNum
     })
 };

@@ -1,26 +1,22 @@
-import { FETCH_POSTS, NEW_POST, PAGE_FILTER } from '../actions/types';
+import { FETCH_POSTS, NEW_POST } from '../actions/types';
 
 const initialState = {
-    items: [],
-    page: 0
+    items: []
 };
 
 export default function (state = initialState, action) {
     switch (action.type) {
         case FETCH_POSTS:
+            //console.log('fetching!');
             return {
                 ...state,
                 items: action.payload
             };
         case NEW_POST:
+            //console.log('searching!');
             return {
                 ...state,
                 items: action.payload
-            };
-        case PAGE_FILTER:
-            return {
-                ...state,
-                page: action.page
             };
         default:
             return state;

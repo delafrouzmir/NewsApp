@@ -4,29 +4,6 @@ import { connect } from 'react-redux';
 import { pageFilter } from '../actions/postActions';
 
 class PageFilter extends Component {
-    //constructor(props) {
-    //    super(props);
-    //    this.state = {
-    //        keyword: ''
-    //    };
-
-    //    this.onChange = this.onChange.bind(this);
-    //    this.onSubmit = this.onSubmit.bind(this);
-    //}
-
-    //onChange(e) {
-    //    this.setState({ [e.target.name]: e.target.value });
-    //}
-
-    //onSubmit(e) {
-    //    e.preventDefault();
-
-    //    const post = {
-    //        title: this.state.keyword
-    //    };
-
-    //    this.props.createPost(post);
-    //}
 
     render() {
         return (

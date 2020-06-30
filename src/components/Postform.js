@@ -39,7 +39,7 @@ class PostForm extends Component {
                         onChange={this.onChange}
                         value={this.state.keyword}
                     />
-                    <button type="submit">Submit</button>
+                    <button type="submit">Search</button>
                 </form>
             </div>
         );
