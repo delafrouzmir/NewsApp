@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\actions",
+    "\\src\\components",
+    "\\src\\reducers"
+  ],
+  "SelectedNode": "\\src\\reducers\\index.js",
+  "PreviewInSolutionExplorer": false
+}
